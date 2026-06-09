@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="keywords" content="Portfolio, HTML5, Accessibility, Student">
+    <meta name="author" content="Mohamed Shaheem">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+<header role="banner">
+    <h1>Mohamed Shaheem</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science Engineering student interested in
+            web development, machine learning, and software development.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Disease Prediction System</h3>
+            <p>Machine learning project for predicting diseases using medical data.</p>
+        </article>
+
+        <article>
+            <h3>Credit Scoring Model</h3>
+            <p>Classification model for predicting customer creditworthiness.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form aria-label="Contact Form">
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Mohamed Shaheem. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
